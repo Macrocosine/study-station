@@ -1,0 +1,34 @@
+# Dependencies and local tools
+node_modules/
+.openai/
+.codex/
+work/
+tmp/
+temp/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Personal exports and backups
+backups/
+exports/
+*.backup.json
+*备份*.json
+study-station-backup*.json
+*原始数据*.txt
+*.recovery.json
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
